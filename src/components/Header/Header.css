@@ -1,0 +1,25 @@
+.dk-weather-main-container__header {
+  display: flex;
+  justify-content: flex-start;
+  gap: 15px;
+  height: 20px;
+}
+
+.dk-weather-main-container__header select {
+  width: 200px;
+}
+
+.dk-weather-main-container__header img {
+  width: 20px;
+  height: 20px;
+}
+
+.dk-weather-main-container__header button {
+  background: none;
+  border: none;
+}
+
+.dk-weather-main-container__header button:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}

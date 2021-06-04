@@ -1,0 +1,10 @@
+.dk-weather-main-container__current-weather-body__details {
+  display: flex;
+  gap: 5px;
+  flex-grow: 1;
+}
+
+.dk-weather-main-container__current-weather-body__details__element {
+  flex: 1 1 0;
+  border: 1px solid black;
+}

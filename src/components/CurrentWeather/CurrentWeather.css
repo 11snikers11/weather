@@ -1,0 +1,5 @@
+.dk-weather-main-container__current-weather-body {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+}

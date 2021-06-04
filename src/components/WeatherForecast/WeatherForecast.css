@@ -1,0 +1,16 @@
+.dk-weather-main-container__forecast-container {
+  display: flex;
+  gap: 20px;
+  flex-grow: 1;
+}
+
+.dk-weather-main-container__forecast-container__day {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  flex: 1 1 0;
+  transition: all 200ms ease-in-out;
+}
+
+.dk-weather-main-container__forecast-container__day:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}

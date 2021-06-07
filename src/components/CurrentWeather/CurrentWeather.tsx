@@ -1,11 +1,23 @@
 import './CurrentWeather.css';
 import CurrentWeatherDetails from './CurrentWeatherDetails/CurrentWeatherDetails';
 import CurrentWeatherSummary from './CurrentWeatherSummary/CurrentWeatherSummary';
-function CurrentWeather() {
+
+type AppProps = {
+  currentTemp: number;
+  wind: number;
+  visibility: number;
+  humidity: number;
+  dewPoint: number;
+  weatherIcon: string;
+};
+function CurrentWeather(props: AppProps) {
   return (
     <div className="dk-weather-main-container__current-weather-body">
-      <CurrentWeatherSummary />
-      <CurrentWeatherDetails />
+      <CurrentWeatherSummary
+        currentTemp={props.currentTemp}
+        weatherIcon={props.weatherIcon}
+      />
+      <CurrentWeatherDetails {...props} />
     </div>
   );
 }

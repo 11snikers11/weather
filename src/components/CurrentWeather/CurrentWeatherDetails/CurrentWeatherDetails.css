@@ -6,5 +6,15 @@
 
 .dk-weather-main-container__current-weather-body__details__element {
   flex: 1 1 0;
-  border: 1px solid black;
+  /* border: 1px solid black; */
+  font-weight: bold;
+  color: white;
+  font-size: 0.8rem;
+  padding-left: 10px;
+}
+
+.dk-weather-main-container__current-weather-body__details__element
+  p:nth-child(1) {
+  font-weight: normal;
+  text-transform: uppercase;
 }

@@ -6,7 +6,29 @@
 }
 
 .dk-weather-main-container__current-weather-body_summary__element {
-  width: 130px;
-  height: 130px;
-  border: 1px solid black;
+  /* width: 150px;
+  height: 130px; */
+  width: fit-content;
+  height: fit-content;
+  /* border: 1px solid black; */
+}
+
+.dk-weather-main-container__current-weather-body_summary__temperature {
+  display: flex;
+  font-size: 4rem;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+}
+
+.dk-weather-main-container__current-weather-body_summary__weather-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.dk-weather-main-container__current-weather-body_summary__date {
+  display: flex;
+  font-size: 2rem;
+  align-items: center;
+  color: white;
 }
